@@ -20,7 +20,7 @@ const App = () => {
     event.preventDefault();
     setLoading(true);
     try {
-      const url= 'http://localhost:3000/business-data';
+      const url= 'https://mini-local-business-dashboard-o4cq.onrender.com/business-data';
       const options ={
         method: 'POST',
         headers: {
@@ -43,7 +43,7 @@ const App = () => {
 
   const regenerateHeadline = async () => {
     setLoading(true);
-    const url=`http://localhost:3000/regenerate-headline?name=${formData.name}&location=${formData.location}`;
+    const url=`https://mini-local-business-dashboard-o4cq.onrender.com/regenerate-headline?name=${formData.name}&location=${formData.location}`;
     
     try {
       const response = await fetch(url);
