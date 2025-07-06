@@ -27,21 +27,21 @@
  # 1 Clone the repository
 
 bash
-git clone https://github.com/your-username/local-business-dashboard.git
-cd local-business-dashboard
+-git clone https://github.com/your-username/local-business-dashboard.git
+-cd local-business-dashboard
 
 # Backend
-cd backend
-npm install
-npm start
+-cd backend
+-npm install
+-npm start
 
 # Frontend
-cd ../frontend
-npm install
-npm start
+-cd ../frontend
+-npm install
+-npm start
 
 # Deployment Links
--> Frontend Live: local-business-dashboard-opal.vercel.app
--> Backend Live: https://mini-local-business-dashboard-o4cq.onrender.com
+- Frontend Live: local-business-dashboard-opal.vercel.app
+- Backend Live: https://mini-local-business-dashboard-o4cq.onrender.com
 
 
